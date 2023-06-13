@@ -1,13 +1,5 @@
 {
-  "compilerOptions": {
-    "module": "CommonJS",
-    "strict": true,
-    "noImplicitAny": true,
-    "preserveConstEnums": true,
-    "sourceMap": true,
-    "target": "es5",
-    "lib": ["ES6", "DOM"]
-  },
-  "include": ["src/**/*"],
-  "exclude": ["**/*.spec.ts"]
+  "extends": "@tsconfig/node18/tsconfig.json",
+  "include": ["./**/*", "./.*"],
+  "exclude": ["./node_modules"]
 }

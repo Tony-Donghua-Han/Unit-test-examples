@@ -1,7 +1,8 @@
+// @ts-check
+
 /** @type {import('ts-jest').JestConfigWithTsJest} */
-module.exports = {
+const config = {
   preset: 'ts-jest',
   testEnvironment: 'node',
-  testMatch: ['**/tests/**/*.test.ts'],
-  collectCoverage: true,
 };
+module.exports = config;
