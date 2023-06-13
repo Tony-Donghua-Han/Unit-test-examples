@@ -1,12 +1,13 @@
 {
-    "compilerOptions": {
-      "module": "CommonJS",
-      "noImplicitAny": true,
-      "preserveConstEnums": true,
-      "sourceMap": true,
-      "target": "es5",
-      "lib": ["ES6", "DOM"]
-    },
-    "include": ["src/**/*"],
-    "exclude": ["**/*.spec.ts"]
-  }
+  "compilerOptions": {
+    "module": "CommonJS",
+    "strict": true,
+    "noImplicitAny": true,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "target": "es5",
+    "lib": ["ES6", "DOM"]
+  },
+  "include": ["src/**/*"],
+  "exclude": ["**/*.spec.ts"]
+}
