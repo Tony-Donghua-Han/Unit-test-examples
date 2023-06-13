@@ -1,3 +1,5 @@
+import { assertNever } from "./common/assertNever";
+
 export enum Cases {
   caseOne = 1,
   caseTwo = 2,
@@ -12,8 +14,4 @@ export function switchCases(input: Cases) {
     default:
       assertNever(input, "This should never happen");
   }
-}
-
-function assertNever(_x: never, message: string): never {
-  throw new Error(message);
 }
