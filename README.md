@@ -1,6 +1,6 @@
 # Unit-test-examples
-
-Overall training guideline for test repo:
+This is the Training Course for SL-OLO repor on unit test, 
+Overall training guideline for test repo are:
 
 Modular Design
 1. To be practiced in the follow up Homework PR
@@ -15,4 +15,4 @@ Test Coverage
 2. Fix the coverage issue with the case
 
 Jest Mock
-1. To be added by Tony
+1. To be added
