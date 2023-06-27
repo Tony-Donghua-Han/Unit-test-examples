@@ -1,13 +1,14 @@
 import { getFirstNumber, sumNumber } from "../isolation";
+import deepFreeze from "deep-freeze";
 
-const testObject = { first: 1, second: 2 };
+const testObject = deepFreeze({ first: 1, second: 2 });
 
 describe("isolation", () => {
   test("getTestNumber should return 1", () => {
-    expect(getFirstNumber(testObject)).toBe(1);
+    expect(getFirstNumber({...testObject})).toBe(1);
   });
 
   test("getTestNumberPlusPlus should return 2", () => {
-    expect(sumNumber(testObject)).toBe(3);
+    expect(sumNumber({...testObject})).toBe(3);
   });
 });

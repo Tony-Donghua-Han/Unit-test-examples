@@ -4,7 +4,7 @@ interface twoNumbers {
 }
 
 export function getFirstNumber(input: twoNumbers) {
-    return input.first;
+    return input.first++;
 }
 
 export function sumNumber(input: twoNumbers) {
