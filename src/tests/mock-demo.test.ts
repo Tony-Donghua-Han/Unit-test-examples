@@ -1,11 +1,17 @@
-import { inputPlusOne, inputPlusTwo } from "../mock-demo";
+import { getResultWithId } from "../mock-demo";
+
+const id = "1234-5678-9012-3456";
 
 describe("mock demo", () => {
-    test("test inputPlus One", () => {
-        expect(inputPlusOne(1)).toBe(2);
+    test("provide 1 to getResultWithId should return 2 with id", () => {
+        expect(getResultWithId(1)).toBe({ number: 2, id });
     });
 
-    test("test inputPlus Two", () => {
-        expect(inputPlusTwo(1)).toBe(3);
+    test("provide 2 to getResultWithId should return 3 with id", () => {
+        expect(getResultWithId(2)).toBe({ number: 3, id });
+    });
+
+    test("provide 3 to getResultWithId should return 4 with id", () => {
+        expect(getResultWithId(3)).toBe({ number: 4, id});
     });
 });

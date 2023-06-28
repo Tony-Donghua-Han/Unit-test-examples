@@ -1,9 +1,11 @@
-import { existingInputPlusOneFunction, existingInputPlusTwoFunction } from "./existing-code";
+import { v4 as uuidv4 } from "uuid";
 
-export function inputPlusOne(input: number) {
-    return existingInputPlusOneFunction({ number: input, extraValue: 0, extraValueTwo: 0 });
+export interface ComplexResult {
+    number: number;
+    id: string;
 }
 
-export function inputPlusTwo(input: number) {
-    return existingInputPlusTwoFunction({ number: input, extraValue: 0, extraValueTwo: 0 });
+export function getResultWithId(input: number): ComplexResult {
+    return { number: input + 1, id: uuidv4() };
 }
+
