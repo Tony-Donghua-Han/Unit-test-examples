@@ -26,7 +26,7 @@ Look into the confluence page, go over the important of having isolated tests, t
 
 Command: `yarn run test-isolation`
 
-1. Change the first function so that the second function fails
+1. Change the first function so that the test of the second function fails
 2. Fix the test so that second test doesn't fail anymore
 3. Use deepFreeze to find the issue in the first function
 
