@@ -7,7 +7,7 @@ describe("isolation", () => {
     expect(getFirstNumber(testObject)).toBe(1);
   });
 
-  test("getTestNumberPlusPlus should return 2", () => {
+  test("getTestNumberPlusPlus should return 3 (1 + 2)", () => {
     expect(sumNumber(testObject)).toBe(3);
   });
 });
