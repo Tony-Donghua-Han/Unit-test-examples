@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This is the Training Course for SL-OLO repor on unit test, this training session contain 3 different sessions:
+This is the Training Course for SL-OLO report on unit test, this training session contain 3 different sessions:
 
 1. (Session one) Go over the material and exercise covered in this repository, using the provided confluence page a guideline.
 2. (Home work) Each participant would work on a PR specific to unit test for at least 4 hours, aiming for 100% coverage.
@@ -16,7 +16,7 @@ Use the provided material in the confluence page. http://intranet:8080/pages/vie
 
 For each exercise, first go over the importance of the topic on the confluence page, then have each participant do the exercise. Once they are done, allow everyone to share their result, ask for different approaches, and ask everyone to share what they think of different approach. Make sure everyone understand there are no right or wrong answer here, as this is a learning exercise.
 
-> Make sure each exercise is performed with the speficied command for better result
+> Make sure each exercise is performed with the specified command for better result
 
 &nbsp;
 
@@ -51,12 +51,14 @@ Command: `yarn run test`
 ### Modular Design
 
 1. To be practiced in the follow up Homework PR
+
 ---
+
 ## Homework
 
 Each participant should pick a part of the code and add unit test with 100% coverage to it, spending at least 4 hours on the work.
 
-Trainer: Organize a follow up meeting for everyoen to discuss about their changes.
+Trainer: Organize a follow up meeting for everyone to discuss about their changes.
 
 ---
 
@@ -64,7 +66,7 @@ Trainer: Organize a follow up meeting for everyoen to discuss about their change
 
 Have all participant go over the PR one by one, have them answer the following questions
 
-PR follow up questons:
+PR follow up questions:
 
 1. What was I trying to achieve?
 2. What have I achieved?
