@@ -36,7 +36,7 @@ Command: `yarn run test-mock`
 
 1. Use Jest.spyOn to mock generateId so that all three test pass
    1. Example doc: https://echobind.com/post/how-to-mock-using-jest-spyon-part-2-3
-   2. Add check to make sure the mocked function is called at least once.
+2. Add check to make sure the mocked function is called exactly once in each test
 
 ### Test Coverage
 
